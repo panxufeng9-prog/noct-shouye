@@ -1,0 +1,20 @@
+{
+  "name": "noct-lantern",
+  "version": "0.10.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node dev.mjs",
+    "build": "node build.mjs",
+    "test": "node tests/home-flow.cjs",
+    "prepare:home": "node art/prepare-home.cjs",
+    "prepare:maps": "node art/prepare-maps.cjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "sharp": "0.35.4"
+  }
+}

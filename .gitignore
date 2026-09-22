@@ -1,0 +1,8 @@
+dist/server/
+dist/.openai/
+.sites-runtime/
+node_modules/
+.local-data/
+tests/output/
+*.log
+.DS_Store
